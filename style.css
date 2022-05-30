@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    /*outline: 1px solid yellow;*/
+}
+
+ul{
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: dimgrey;
+    line-height: 40px;
+    text-align: center;
+}
+
+li{
+    /*outline:1px solid red;*/
+    width: 100px;
+    display: inline-block;
+}
+
+a{
+    /*outline: 1px solid green;*/
+    text-decoration: none;
+    display: block;
+    color:white
+}
+a:hover{
+    background:#f9a91a;
+    color: #000;
+}
