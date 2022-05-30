@@ -40,6 +40,9 @@ a{
     text-align: center;
     
 }
+section{
+    text-align: center;
+}
 a:hover{
     color: orange;
     background-color:darkred;
