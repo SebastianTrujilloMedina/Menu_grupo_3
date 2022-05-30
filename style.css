@@ -28,7 +28,19 @@ a{
     display: block;
     color:white
 }
+
+.id{
+    border: 1px solid black;
+    height: 250px;
+    width: 200px;
+    padding: 45px;
+    margin: 3px;
+    display:inline-block;
+    font-size: 10px;
+    text-align: center;
+    
+}
 a:hover{
-    background:#f9a91a;
-    color: #000;
+    color: orange;
+    background-color:darkred;
 }
