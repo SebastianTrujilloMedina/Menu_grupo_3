@@ -11,6 +11,7 @@ ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    background: dimgrey;
     line-height: 40px;
     text-align: center;
 }
@@ -25,9 +26,7 @@ a{
     /*outline: 1px solid green;*/
     text-decoration: none;
     display: block;
-    color:white;
-    width: 25px;
-    height: 30px;
+    color:white
 }
 
 .id{
@@ -45,15 +44,6 @@ section{
     text-align: center;
 }
 a:hover{
-    color: black;
-  
-}
-.principal{
-    background-image:url(https://www.managementgourmet.com/wp-content/uploads/2019/02/RUYA-NEW-3-1080x675.jpg);
-}
-
-.titulo{
-    color: white;
-    text-align: center;
-    text-justify: auto;
+    color: orange;
+    background-color:darkred;
 }
