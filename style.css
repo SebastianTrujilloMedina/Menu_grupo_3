@@ -47,3 +47,13 @@ a:hover{
     color: orange;
     background-color:darkred;
 }
+
+div{
+    background: #5DEAA8;
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  border: 10px solid #43B17D;
+  margin: 60px;
+  box-sizing: padding-box;
+}
