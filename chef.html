@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Marck Script' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1 class="Pgchef">NOMBRE DEL RESTAURANTE</h1>
     <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Menus</a></li>
-            <li><a href="#">Carta</a></li>
-            <li><a href="#">Buscar</a></li>
-        </ul>
-        <br>
+        <div class="topnav">
+            <a href="principal.html">Inicio</a>
+            <a href="diarios.html">Menús</a>
+            <a href="#home">Reservas</a>
+            <a href="chef.html">Chefs</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Buscar receta..." name="search">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
+    <h1 class="Pgchef">Chefs</h1>
+    
     <section>
 
     <div class="id">
@@ -66,6 +76,12 @@
     </div>
 
     </section>  
-
+    <footer>
+        <a href="#"><i class="fa fa-facebook fa-3x"></i></a>
+        <a href="#"><i class="fa fa-twitter fa-3x"></i></a>
+        <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+        <a href="#"><i class="fa fa-linkedin fa-3x"></i></a>
+        <a href="#"><i class="fa fa-youtube fa-3x"></i></a>
+    </footer>
 </body>
 </html>
