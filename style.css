@@ -1,14 +1,13 @@
-
 .principal{
-    background-image:url(https://www.managementgourmet.com/wp-content/uploads/2019/02/RUYA-NEW-3-1080x675.jpg);
+  background-image:url(https://www.managementgourmet.com/wp-content/uploads/2019/02/RUYA-NEW-3-1080x675.jpg);
+  width:100%;
 }
 
 .titulo{
-    color: white;
-    text-align: center;
-    text-justify: auto;
+  color: white;
+  text-align: center;
+  text-justify: auto;
 }
-
 * {box-sizing: border-box;}
 
 /* Style the navbar */
