@@ -8,7 +8,30 @@
             <link rel="stylesheet" href="style.css">
         </head>
         <body>
-            <nav></nav>
+            <nav>
+                <div class="topnav">
+                    <a href="#home">Inicio</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Menús de los chefs
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Chef 1</a>
+                          <a href="#">Chef 2</a>
+                          <a href="#">Chef 4</a>
+                          <a href="#">Chef 5</a>
+                          <a href="#">Chef 6</a>
+                          <a href="#">Chef 7</a>
+                          <a href="#">Chef 8</a>
+                        </div>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Buscar..." name="search">
+                            <button type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
             <h1>Menus diarios</h1>
     
             <section>
