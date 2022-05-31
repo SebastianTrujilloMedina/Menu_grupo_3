@@ -2,9 +2,6 @@ h1{
     text-align: center;
 }
 
-nav{
-    /*outline: 1px solid yellow;*/
-}
 
 ul{
     /*outline: 1px solid blue;*/
@@ -46,35 +43,35 @@ a{
 .primero{
     
     background: #5DEAA8;
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 300px;
     margin-top: 10px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%
 }
 
 .segundo{
     
     background: #5DEAA8;
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 300px;
     margin-top: 10px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%
 }
 
 .postre{
     
     background: #5DEAA8;
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 300px;
     margin-top: 10px;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%
 }
