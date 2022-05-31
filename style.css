@@ -40,16 +40,34 @@ a{
     text-align: center;
     
 }
-section{
-    text-align: center;
-}
-a:hover{
-    color: orange;
-    background-color:darkred;
-}
 
 
-article class="segundo"segundo plato{
+
+.primero{
+    
+    background: #5DEAA8;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 10%
+}
+
+.segundo{
+    
+    background: #5DEAA8;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 10%
+}
+
+.postre{
     
     background: #5DEAA8;
     height: 100px;
