@@ -17,9 +17,9 @@
 }
 
 .logo{
-  text-align: center;
+  float: left;
   position: relative;
-  top: -170px;
+  top: -100px;
 }
 
 .menu{
