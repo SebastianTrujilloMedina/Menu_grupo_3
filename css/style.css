@@ -1,5 +1,8 @@
-
-body{
+.principal{
+  background-image:url(https://static.vecteezy.com/system/resources/previews/001/959/920/non_2x/blurred-busy-restaurant-background-free-photo.JPG);
+  background-size: 100%;
+}
+.fmenu{
   background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
   background-size:100%;
  }
@@ -20,8 +23,9 @@ body{
 
 }
 .logomenu{
+  display: flex;
   justify-content: center;
-
+  margin-bottom: 0%;
 }
 
 .menu{
