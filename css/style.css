@@ -6,11 +6,7 @@ body{
 
 .titulo{
   display: flex;
-<<<<<<< HEAD
-  color:#FF4B00;
-=======
   color: orangered;
->>>>>>> 8a5687094686cb483edac2de34a897eaeb3da584
   justify-content: center;
   font-family: 'Sofia';
   font-size: 85px;
@@ -19,16 +15,18 @@ body{
 
 .logo{
   position: relative;
-
+  float: left;
+  top: -100px;
 
 }
 .logomenu{
   justify-content: center;
+
 }
 
 .menu{
   display: flex;
-  color: white;
+  color: orangered;
   justify-content: center;
   font-family: 'Delius Unicase';
   font-size: 70px;
@@ -61,6 +59,7 @@ body{
 .topnav a:hover {
   background-color:#FF4B00;
   color: black;
+  border-radius: 30px;
 }
 
 .topnav .search-container {
@@ -166,7 +165,7 @@ a:hover {
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 200%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
