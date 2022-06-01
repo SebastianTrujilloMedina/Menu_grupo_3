@@ -125,6 +125,7 @@ section{
     background: #b44e26;
     height: 450px;
     width: 300px;
+    border: 2px solid #1c1c1c;
     margin: 5px;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
