@@ -10,10 +10,11 @@
 }
 .titulo{
   display: flex;
-  color: white;
+  color: orangered;
   justify-content: center;
   font-family: 'Sofia';
   font-size: 85px;
+  margin-top: 0;
 }
 
 .logo{
