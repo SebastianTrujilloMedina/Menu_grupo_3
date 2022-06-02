@@ -27,28 +27,28 @@
 .logo{
   position: relative;
   float: left;
-  left: 0px;
   top: -170px;
-  left: -120px;
+  left: -80px;
 
   
 }
 .logomenu{
   display: flex;
-  justify-content: center;
+  text-align: center;
   margin-bottom: 0%;
   position: relative;
-  top: -340px;
+  top: -50px;
+  left: -65px;
 }
 
 .menu{
   display: flex;
   color: orangered;
-  justify-content: center;
   font-family: 'Delius Unicase';
-  font-size: 70px;
+  font-size: 65px;
   position: relative;
-  top:-370px;
+  top:-100px;
+  left: -55px
 }
 
 .descripcion{
@@ -63,6 +63,8 @@
 .topnav {
   overflow: hidden;
   background-color: transparent;
+  position: relative;
+  left:-220px;
   
 }
 
@@ -84,6 +86,7 @@
 
 .topnav .search-container {
   float: right;
+ 
 }
 
 .topnav input[type=text] {
@@ -102,6 +105,7 @@
   font-size: 17px;
   border: none;
   cursor: pointer;
+  
 }
 
 .topnav .search-container button:hover {
