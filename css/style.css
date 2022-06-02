@@ -13,7 +13,7 @@
   justify-content: center;
   font-family: 'Sofia';
   font-size: 60px;
-  margin-top: 0;
+
 }
 .indexmenu{
   display: flex;
@@ -27,8 +27,11 @@
 .logo{
   position: relative;
   float: left;
-  top: -100px;
+  left: 0px;
+  top: -170px;
+  left: -120px;
 
+  
 }
 .logomenu{
   display: flex;
@@ -60,6 +63,7 @@
 .topnav {
   overflow: hidden;
   background-color: transparent;
+  
 }
 
 .topnav a {
