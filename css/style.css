@@ -4,31 +4,37 @@
 }
 .fmenu{
   background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
-  background-size:100%;
+  background-size: 100%;
  }
 
-.titulo{
-  display: flex;
+.TITULO{
   color: orangered;
-  justify-content: center;
   font-family: 'Sofia';
   font-size: 60px;
-
+  position: relative;
+  right: 170px;
+  top: -100px;
 }
+.desprincipal{
+  color: white;
+  margin: 30px;
+ 
+}
+
 .indexmenu{
   display: flex;
   color: orangered;
   justify-content: center;
   font-family: 'Sofia';
   font-size: 60px;
-  margin-top: -00px;
+  margin-top: 0px;
 
 }
 .logo{
   position: relative;
   float: left;
   top: -170px;
-  left: -80px;
+  right: 80px;
 
   
 }
@@ -38,7 +44,7 @@
   margin-bottom: 0%;
   position: relative;
   top: -50px;
-  left: -65px;
+  right:65px;
 }
 
 .menu{
@@ -48,7 +54,7 @@
   font-size: 65px;
   position: relative;
   top:-100px;
-  left: -55px
+  right:55px
 }
 
 .descripcion{
@@ -64,7 +70,7 @@
   overflow: hidden;
   background-color: transparent;
   position: relative;
-  left:-220px;
+  right:220px;
   
 }
 
@@ -86,6 +92,8 @@
 
 .topnav .search-container {
   float: right;
+  left: 70px;
+  
  
 }
 
@@ -105,7 +113,6 @@
   font-size: 17px;
   border: none;
   cursor: pointer;
-  
 }
 
 .topnav .search-container button:hover {
