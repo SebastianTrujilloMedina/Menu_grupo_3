@@ -94,9 +94,9 @@
 }
 
 .topnav .search-container {
-  float: left;
+  float: right;
   margin-top: -78px;
-  margin-left: 550px;
+  right: -60px;
 }
 
 .topnav input[type=text] {
@@ -230,3 +230,64 @@ a:hover {
   font-size: 16px;
   padding: 16px 32px;
 }
+.uno{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+  
+}
+
+.dos{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+  
+}
+.tres{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+.cuatro{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+.cinco{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+.seis{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+.siete{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+.ocho{
+  float: left;
+  height: 300px;
+  width: 380px;
+  border: 3px solid blue;
+  margin-top: 10px;
+}
+
+
