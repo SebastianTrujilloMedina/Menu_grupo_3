@@ -1,5 +1,6 @@
 .principal{
-  background-image:url(https://static.vecteezy.com/system/resources/previews/001/959/920/large_2x/blurred-busy-restaurant-background-free-photo.JPG);
+  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
+  /*background-image:url(https://static.vecteezy.com/system/resources/previews/001/959/920/large_2x/blurred-busy-restaurant-background-free-photo.JPG);*/
   background-size: 100%;
 }
 .fmenu{
@@ -13,11 +14,13 @@
   font-size: 60px;
   position: relative;
   right: 170px;
-  top: -100px;
+  top: -40px;
 }
 .desprincipal{
   color: white;
-  margin: 30px;
+  position: relative;
+  right: 250px;
+  text-align: center;
  
 }
 
@@ -91,24 +94,23 @@
 }
 
 .topnav .search-container {
-  float: right;
-  left: 70px;
-  
- 
+  float: left;
+  margin-top: -78px;
+  margin-left: 550px;
 }
 
 .topnav input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border: none;
+  border:none;
 }
 
 .topnav .search-container button {
   float: right;
   padding: 6px;
   margin-top: 8px;
-  margin-right: 16px;
+  margin-right: 5px;
   background: #ddd;
   font-size: 17px;
   border: none;
@@ -162,9 +164,9 @@ footer {
   width: 100%;
   left:0px;
   bottom:0px;
-  background: -webkit-linear-gradient(left, #41eab2, #24c8e5);
-  background: -moz-linear-gradient(left, #41eab2, #24c8e5);
-  background: linear-gradient(left, #41eab2, #30e8de);
+  background: -webkit-linear-gradient(left, orangered, orangered);
+  background: -moz-linear-gradient(left, orangered, orangered);
+  background: linear-gradient(left, orangered, orangered);
   
 }
 
