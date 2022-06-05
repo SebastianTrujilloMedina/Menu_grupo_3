@@ -1,6 +1,5 @@
 .principal{
-  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
-  /*background-image:url(https://static.vecteezy.com/system/resources/previews/001/959/920/large_2x/blurred-busy-restaurant-background-free-photo.JPG);*/
+  background-image:url(https://static.vecteezy.com/system/resources/previews/001/959/920/large_2x/blurred-busy-restaurant-background-free-photo.JPG);
   background-size: 100%;
 }
 .fmenu{
@@ -8,7 +7,7 @@
   background-size: 100%;
  }
 
-.TITULO{
+.titulo{
   color: orangered;
   font-family: 'Sofia';
   font-size: 60px;
@@ -17,10 +16,11 @@
   top: -40px;
 }
 .desprincipal{
-  color: white;
+  color: orangered;
   position: relative;
   right: 250px;
   text-align: center;
+  font-family: 'Sofia';
  
 }
 
@@ -46,8 +46,8 @@
   text-align: center;
   margin-bottom: 0%;
   position: relative;
-  top: -50px;
-  right:65px;
+  top: -45px;
+  right:85px;
 }
 
 .menu{
@@ -148,7 +148,7 @@ section{
 
 .articulo{  
     background: #b44e26;
-    height: 450px;
+    height: 370px;
     width: 300px;
     border: 2px solid #1c1c1c;
     margin: 5px;
