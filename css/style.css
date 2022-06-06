@@ -196,12 +196,10 @@ a:hover {
   top: -3px;
 }
 
-
 .container {
   position: relative;
   width: 50%;
 }
-
 
 .image {
   opacity: 1;
@@ -211,7 +209,6 @@ a:hover {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
 
 .middle {
   transition: .5s ease;
