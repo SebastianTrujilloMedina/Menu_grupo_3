@@ -66,6 +66,9 @@
   justify-content: center;
   font-family: 'Marck Script';
   font-size: 25px;
+  position: relative;
+  top: -100px;
+  left: -400px;
 
 }
 
@@ -155,7 +158,11 @@ section{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%
+    border-bottom-left-radius: 5%;
+    font-family: 'Sofia';
+    font-size: 25px;
+    position: relative;
+    top: -100px;
 }
 
 footer {
@@ -230,64 +237,15 @@ a:hover {
   font-size: 16px;
   padding: 16px 32px;
 }
-.uno{
+.chefs{
   float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
+  position: relative;
+  top: -300px;
   
 }
-
-.dos{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-  
-}
-.tres{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-.cuatro{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-.cinco{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-.seis{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-.siete{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-.ocho{
-  float: left;
-  height: 300px;
-  width: 380px;
-  border: 3px solid blue;
-  margin-top: 10px;
-}
-
-
+.chef{
+  margin: 5px;
+  font-family: 'Marck Script';
+  font-size: 35px;
+  color: orangered;
+  }
