@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  margin: 0;
 }
 body{
   background-image:url(./Imagenes/fondo_pag_rest.jpg);
@@ -11,8 +12,8 @@ body{
  }
 
 .content{
-  min-width: 100%;
-  background-color:#f6c27e;
+  
+  background-color:#ecba78a1;
   display: flex;
 }
 
@@ -21,14 +22,14 @@ body{
 
 }
 
-img{
-  margin-left: 190px;
+.logo img{
+ 
   margin-top: 40px;  
 } 
 
 h1{
-  color:#f6d8b1;
-  font-family: 'Patua One';
+  color:#7b592d;
+  font-family: 'Sofia';
   font-size: 50px;
   margin-left: 60px;
 }
@@ -40,21 +41,21 @@ h1{
   justify-content: center;
   align-items: center;
 
-  color: #f6d8b1;
+  color: #7b592d;
   text-decoration: none;
   font-size: 35px;
   font-family: 'Sofia';
 }
 
 .contenedor_nav a:hover {
-  background-color:#FF4B00;
+  background-color:#7b592d;
   color: black;
   border-radius: 30px;
 }
 
 .desprincipal{
   
-  background-color: rgba(255, 68, 0, 0.616);
+  background-color: #7b592d81;
   border-radius: 20px;
   width: 60%;
   padding-top: 5px;
@@ -205,7 +206,7 @@ a {
   transition-duration: 0.4s;
 }
 
-a:hover {
+footer > a:hover {
   color: #fff;
   opacity: 0.9;
   text-shadow: 2px 3px 5px #00d0ff;
