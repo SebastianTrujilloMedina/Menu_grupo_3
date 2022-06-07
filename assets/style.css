@@ -11,6 +11,8 @@ body{
  }
 
 .content{
+  min-width: 100%;
+  background-color:#f6c27e;
   display: flex;
 }
 
@@ -25,8 +27,8 @@ img{
 } 
 
 h1{
-  color: orangered;
-  font-family: 'Sofia';
+  color:#f6d8b1;
+  font-family: 'Patua One';
   font-size: 50px;
   margin-left: 60px;
 }
@@ -38,7 +40,7 @@ h1{
   justify-content: center;
   align-items: center;
 
-  color: rgb(255, 255, 255);
+  color: #f6d8b1;
   text-decoration: none;
   font-size: 35px;
   font-family: 'Sofia';
