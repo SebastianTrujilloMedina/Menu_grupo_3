@@ -12,19 +12,20 @@ body{
  }
 
 .content{
-  
   background-color:#ecba78a1;
   display: flex;
+  align-items: center;
 }
-
+/*
 .contenedor_nav{
-  margin-left: 60px;
-
+  
 }
-
+*/
+.logo{
+  background-color: #1c1c1c;
+}
 .logo img{
- 
-  margin-top: 40px;  
+  width: 70%; 
 } 
 
 h1{
