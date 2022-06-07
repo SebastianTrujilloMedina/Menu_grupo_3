@@ -16,13 +16,10 @@ body{
   display: flex;
   align-items: center;
 }
-/*
-.contenedor_nav{
-  
-}
-*/
+
 .logo{
-  background-color: #1c1c1c;
+  
+  margin-left: 40px;
 }
 .logo img{
   width: 70%; 
@@ -32,19 +29,21 @@ h1{
   color:#7b592d;
   font-family: 'Sofia';
   font-size: 50px;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
+.contenedor_nav{
+  margin-top: 40px;
+}
 .contenedor_nav a {
   margin-left: 15px;
-  margin-top: -20px;
   padding: 14px 16px;
   justify-content: center;
   align-items: center;
 
   color: #7b592d;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 30px;
   font-family: 'Sofia';
 }
 
@@ -52,6 +51,44 @@ h1{
   background-color:#7b592d;
   color: black;
   border-radius: 30px;
+}
+
+/*Buscador*/
+
+
+.buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-left: 180px;
+  margin-top: 80px;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  background-color: #7b592d;
+  border-radius: 30px;
+}
+
+.buscar_texto{
+  border: none;
+  background: none;
+  outline: none;
+  font-family: 'Sofia';
+  color: #ecba78a1;
+  font-size: 15px;
+  transition: .3s;
+  width: 0;
+}
+
+.boton{
+  width: 20px;
+  height: 20px;
+  color: #ecba78a1;
+  font-size: 19px;
+  text-decoration: none;
+}
+.buscador:hover > .buscar_texto{
+  width: 200px;
 }
 
 .desprincipal{
@@ -63,8 +100,8 @@ h1{
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
-
-  margin-left: 220px;
+  margin-top: 20px;
+  margin-left: 320px;
   color: white;
   font-family: 'Sofia';
   font-size: 25px;
@@ -147,7 +184,7 @@ h1{
   .topnav .search-container {
     float: none;
   }
-  .body, .section, .section .articulo, .topnav a, .topnav input[type=text], .topnav .search-container button{
+  .body, .section, .section .articulo, .topnav a, .content, .buscador, .topnav input[type=text], .topnav .search-container button{
     float: none;
     display: flex;
     text-align: left;
@@ -264,5 +301,4 @@ footer > a:hover {
   font-size: 35px;
   color: orangered;
   }
-
 
