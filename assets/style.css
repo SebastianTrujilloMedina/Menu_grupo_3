@@ -302,3 +302,20 @@ footer > a:hover {
   color: orangered;
   }
 
+.formulario{
+  background:#ecba78a1;
+  color:#7b592d;
+  width: 650px;
+  height: 288px;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 45px;
+  border-radius: 35px;
+}  
+h2{
+  color:#7b592d;
+  font-family:'Sofia';
+  font-size: 42px;
+}
+
