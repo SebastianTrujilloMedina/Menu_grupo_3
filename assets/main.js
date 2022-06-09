@@ -56,3 +56,9 @@ function menus_toHTML (menus){
 
         return menus_toHtml;
 }
+
+function main(){
+    data = getDataMenus();
+    displayDataMenus(data);
+}
+main();
