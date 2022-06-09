@@ -2,14 +2,12 @@
   box-sizing: border-box;
   margin: 0;
 }
+
+/*Principal.html*/
 body{
   background-image:url(./Imagenes/fondo_pag_rest.jpg);
   background-size: 100%;
 }
-.fmenu{
-  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
-  background-size: 100%;
- }
 
 .content{
   background-color:#ecba78a1;
@@ -18,9 +16,9 @@ body{
 }
 
 .logo{
-  
   margin-left: 40px;
 }
+
 .logo img{
   width: 70%; 
 } 
@@ -32,6 +30,7 @@ h1{
   margin-left: 50px;
 }
 
+
 .contenedor_nav{
   margin-top: 40px;
 }
@@ -40,7 +39,6 @@ h1{
   padding: 14px 16px;
   justify-content: center;
   align-items: center;
-
   color: #7b592d;
   text-decoration: none;
   font-size: 30px;
@@ -54,8 +52,6 @@ h1{
 }
 
 /*Buscador*/
-
-
 .buscador{
   display: flex;
   justify-content: center;
@@ -87,12 +83,12 @@ h1{
   font-size: 19px;
   text-decoration: none;
 }
+
 .buscador:hover > .buscar_texto{
   width: 200px;
 }
 
 .desprincipal{
-  
   background-color: #7b592d81;
   border-radius: 20px;
   width: 60%;
@@ -105,8 +101,61 @@ h1{
   color: white;
   font-family: 'Sofia';
   font-size: 25px;
- 
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  background-color: #ecba78a1;
+  color:#644925;
+}
+
+.cp-text{
+  margin-top: 40px;
+  margin-left: 320px;
+  margin-bottom: 10px;
+}
+
+.cp-text > p:last-child{
+  text-align: center;
+}
+.contacto{
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+footer a{
+  color: #644925;
+  text-decoration: none;
+}
+
+.enlaces_footer{
+  margin-top: 20px;
+  margin-left: 340px;
+}
+.enlaces_footer a {
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; 
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.enlaces_footer > a:hover {
+  color: black;
+  opacity: 0.9;
+  text-shadow: 2px 3px 5px #644925;
+  top: -3px;
+}
+
+/*FIN de Principal.html*/
+
+.fmenu{
+  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
+  background-size: 100%;
+ }
 
 .indexmenu{
   display: flex;
@@ -149,7 +198,6 @@ h1{
   left: -400px;
 
 }
-
 
 .topnav .search-container {
   float: right;
@@ -220,44 +268,6 @@ section{
     top: -100px;
 }
 
-footer {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  left:0px;
-  bottom:0px;
-  background: -webkit-linear-gradient(left, #ecba78a1, #ecba78a1);
-  background: -moz-linear-gradient(left, #ecba78a1,#ecba78a1);
-  background: linear-gradient(left, #ecba78a1, #ecba78a1);
-}
-
-.cp-text{
-  margin: 5px;
-  
-}
-
-.contacto{
-  margin:5px;
-}
-a {
-  display: inline-block;
-  color: #644925;
-  text-decoration: none;
-  margin: 15px 4px;
-  position: relative;
-  -webkit-transition-duration: 0.4s; 
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-
-footer > a:hover {
-  color: black;
-  opacity: 0.9;
-  text-shadow: 2px 3px 5px #644925;
-  top: -3px;
-}
 
 .container {
   position: relative;
