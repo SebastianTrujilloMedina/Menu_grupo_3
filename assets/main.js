@@ -61,4 +61,3 @@ function main(){
     data = getDataMenus();
     displayDataMenus(data);
 }
-main();
