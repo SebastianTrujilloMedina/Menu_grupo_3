@@ -222,19 +222,27 @@ section{
 
 footer {
   position: absolute;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   left:0px;
   bottom:0px;
-  background: -webkit-linear-gradient(left, orangered, orangered);
-  background: -moz-linear-gradient(left, orangered, orangered);
-  background: linear-gradient(left, orangered, orangered);
+  background: -webkit-linear-gradient(left, #ecba78a1, #ecba78a1);
+  background: -moz-linear-gradient(left, #ecba78a1,#ecba78a1);
+  background: linear-gradient(left, #ecba78a1, #ecba78a1);
+}
+
+.cp-text{
+  margin: 5px;
   
 }
 
+.contacto{
+  margin:5px;
+}
 a {
   display: inline-block;
-  color: black;
+  color: #644925;
   text-decoration: none;
   margin: 15px 4px;
   position: relative;
@@ -245,9 +253,9 @@ a {
 }
 
 footer > a:hover {
-  color: #fff;
+  color: black;
   opacity: 0.9;
-  text-shadow: 2px 3px 5px #00d0ff;
+  text-shadow: 2px 3px 5px #644925;
   top: -3px;
 }
 
