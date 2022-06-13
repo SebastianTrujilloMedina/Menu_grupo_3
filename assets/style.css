@@ -8,6 +8,11 @@ body{
   background-image:url(./Imagenes/fondo_pag_rest.jpg);
   background-size: 100%;
 }
+/*imagen fondo pagina menú*/
+.fmenu{
+  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
+  background-size: 100%;
+ }
 
 .content{
   background-color:#ecba78a1;
@@ -152,11 +157,6 @@ footer a{
 
 /*FIN de Principal.html*/
 
-.fmenu{
-  background-image:url(http://lea.verou.me/ft2010/img/darker_wood.jpg);
-  background-size: 100%;
- }
-
 .indexmenu{
   display: flex;
   color: orangered;
@@ -167,37 +167,6 @@ footer a{
 
 }
 
-
-.logomenu{
-  display: flex;
-  text-align: center;
-  margin-bottom: 0%;
-  position: relative;
-  top: -45px;
-  right:85px;
-}
-
-.menu{
-  display: flex;
-  color: orangered;
-  font-family: 'Delius Unicase';
-  font-size: 65px;
-  position: relative;
-  top:-100px;
-  right:55px
-}
-
-.descripcion{
-  display: flex;
-  color: white;
-  justify-content: center;
-  font-family: 'Marck Script';
-  font-size: 25px;
-  position: relative;
-  top: -100px;
-  left: -400px;
-
-}
 
 .topnav .search-container {
   float: right;
@@ -245,60 +214,51 @@ footer a{
   }
 }
 
-section{
+/*Página menú*/
+.pagmenu{
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  margin-top: 0%;
-  }
-
-.articulo{  
-    background: #b44e26;
-    height: 370px;
-    width: 300px;
-    border: 2px solid #1c1c1c;
-    margin: 5px;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    font-family: 'Sofia';
-    font-size: 25px;
-    position: relative;
-    top: -100px;
+  justify-content: center;
+  flex-flow: column;   
 }
 
+.platos{
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
 
-.container {
-  position: relative;
-  width: 50%;
+.menu{
+  color: orangered;
+  font-family: 'Delius Unicase';
+  font-size: 65px;
+}
+
+.descripcion{
+  color: white;
+  font-family: 'Marck Script';
+  font-size: 25px;
+}
+
+.container{  
+  background: #b44e26;
+  height: 370px;
+  width: 300px;
+  border: 2px solid #1c1c1c;
+  margin: 5px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  font-family: 'Sofia';
+  font-size: 25px;  
 }
 
 .image {
   opacity: 1;
-  display: block;
-  width: 200%;
+  width: 50%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
 }
 
 .text {
@@ -307,6 +267,8 @@ section{
   font-size: 16px;
   padding: 16px 32px;
 }
+/*Fin página menú*/
+
 .chefs{
   float: left;
   position: relative;
