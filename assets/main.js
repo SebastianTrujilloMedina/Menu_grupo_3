@@ -1,13 +1,15 @@
 
-/*Funciones página indice_menus.html*/
+//Funciones página indice_menus.html
 
 /*Función que obtiene los menús de la base de datos */
+
 function getDataMenus(){
     let menus_json = JSON.parse(menus);
     return menus_json;
 }
 
 /*Función que recorre el array de menús de objetos JSON y lo muestra*/
+
 function displayDataMenus (data){
     let menus_html = '';
 
@@ -15,10 +17,11 @@ function displayDataMenus (data){
         menus_html += menus_toHTML(data[i]);
     }
 
-    document.querySelector('menus').innerHTML = menus_html;
+    document.querySelector('.menus').innerHTML = menus_html;
 }
 
 /*Dado un objeto JSON de menú, devuelve su correspondiente HTML*/
+
 function menus_toHTML (menus){
     let menus_toHtml = '<article class="menu " '+ menus.menu + '>\
         <div class="presentacion">\
@@ -57,7 +60,16 @@ function menus_toHTML (menus){
         return menus_toHtml;
 }
 
+
 function main(){
     data = getDataMenus();
     displayDataMenus(data);
 }
+
+main();
+
+//Fin de unciones página indice_menus.html
+
+//Funciones página chefs.html
+
+//Fin de funciones página chefs.html
