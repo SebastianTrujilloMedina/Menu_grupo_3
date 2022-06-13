@@ -7,6 +7,9 @@
 body{
   background-image:url(./Imagenes/fondo_pag_rest.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
 }
 /*imagen fondo pagina menú*/
 .fmenu{
