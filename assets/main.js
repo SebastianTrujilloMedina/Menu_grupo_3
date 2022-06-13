@@ -45,6 +45,7 @@ function menus_toHTML (menus){
         <div class="info_adicional">\
         <p><b>Días disponibles</b>: ' + menus.dia + '<p>\
         <p><b>Precio</b>: ' + menus.precio + ' €</p>\
+        </div>\
         </article>';
 
         return menus_toHtml;
@@ -61,5 +62,6 @@ main();
 //Fin de unciones página indice_menus.html
 
 //Funciones página chefs.html
+
 
 //Fin de funciones página chefs.html

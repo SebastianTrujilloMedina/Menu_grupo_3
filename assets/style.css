@@ -178,7 +178,7 @@ footer a{
   margin-bottom: 20px;
   margin-top: 30px;
   width: 30%;
-  height: 40%;
+  height: 50%;
   display: inline-block;
 }
 
@@ -197,11 +197,59 @@ footer a{
   text-decoration: none;
 }
 
-
-
 /*FIN página menus_index.html*/
 
+/*Página reservas.html*/
 
+.formulario{
+  font-family: 'Sofia';
+  background-color: #644925bd;
+  margin: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  width: 40%;
+  color: #ecba78ce;
+  margin-left: 450px;
+  text-align: center;
+}
+
+.formulario h2{
+  font-size: 50px;
+}
+
+.formulario label{
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.formulario input{
+  background-color: #ecba78ce;
+}
+
+.formulario textarea{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: 'Sofia';
+  width: 70%;
+  background-color:#ecba78ce;
+  
+}
+
+.botones{
+  margin-left: 8px;
+}
+.botones input{
+  font-family: 'Sofia';
+  color:#644925;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+/*FIN página reservas.html*/
 
 /*
 .indexmenu{
