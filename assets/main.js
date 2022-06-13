@@ -25,35 +25,25 @@ function displayDataMenus (data){
 function menus_toHTML (menus){
     let menus_toHtml = '<article class="menu " '+ menus.menu + '>\
         <div class="presentacion">\
-        <h2>Menú ' + menus.menu + '</h2>\
-        <p>' + menus.descripcion + '</p>\
+        <a href ="#" target="_blank"> <h2>Menú ' + menus.menu + '</h2></a>\
         </div>\
         <div class="primer_plato">\
-        <img src="' + menus.imagenprimero +'" alt="'+menus.primero+'">\
-        <figcaption>' + menus.primero + '</figcaption>\
+        <p><b>Primer plato:</b> ' + menus.primero + '</p>\
         </div>\
         <div class="segundo_plato">\
-        <img src="' + menus.imagensegundo +'" alt="'+menus.segundo+'">\
-        <figcaption>' + menus.segundo + '</figcaption>\
+        <p><b>Segundo plato:</b> ' + menus.segundo + '</p>\
         </div>\
         <div class="postre">\
-        <img src="' + menus.imagenpostre +'" alt="'+menus.postre+'">\
-        <figcaption>' + menus.postre + '</figcaption>\
+        <p><b>Postre: </b>' + menus.postre + '</p>\
         </div>\
         <div class="cafe">\
-        <p>Café: ' + menus.cafe + '</p>\
+        <p><b>Café: </b>' + menus.cafe + '</p>\
         </div>\
         <div class="bebida">\
-        <img src="' + menus.imagenbebida +'" alt="'+menus.bebidas +'">\
-        <figcaption>' + menus.bebidas + '</figcaption>\
+        <p><b>Bebida:</b> ' + menus.bebidas + '</p>\
         </div>\
         <div class="info_adicional">\
         <p><b>Días disponibles</b>: ' + menus.dia + '<p>\
-        <div class="chef">\
-        <p><b>Chef</b><br>\
-        <img src="' + menus.imagenchef +'" alt="'+menus.chef +'">\
-        <figcaption>' + menus.chef + '</figcaption>\
-        </div>\
         <p><b>Precio</b>: ' + menus.precio + ' €</p>\
         </article>';
 
