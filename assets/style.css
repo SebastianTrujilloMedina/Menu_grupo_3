@@ -167,7 +167,6 @@ footer a{
 
 }
 
-
 .topnav .search-container {
   float: right;
   margin-top: -78px;
@@ -226,13 +225,13 @@ footer a{
   align-items: stretch;
   flex-direction: row;
 }
-
+/*
 .menu{
   color: orangered;
   font-family: 'Delius Unicase';
   font-size: 65px;
 }
-
+*/
 .descripcion{
   color: white;
   font-family: 'Marck Script';
