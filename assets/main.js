@@ -1,41 +1,27 @@
 
-/*Funciones página indice_menus.html*/
+//Funciones página indice_menus.html
 
-<<<<<<< Updated upstream
 /*Función que obtiene los menús de la base de datos */
+
 function getDataMenus(){
     let menus_json = JSON.parse(menus);
-=======
-console.log('Menus')
-
-function getData(){
-    let menus_json = JSON.parse(menus)
->>>>>>> Stashed changes
     return menus_json;
 }
 
 /*Función que recorre el array de menús de objetos JSON y lo muestra*/
+
 function displayDataMenus (data){
     let menus_html = '';
 
-<<<<<<< Updated upstream
     for (let i = 0; i < data.length; i++){
         menus_html += menus_toHTML(data[i]);
-=======
-    for( var i = 0; i < data.length; i++){
-        menus_html += menu_tohtml(data[i])
-        if(i<data.length-1 && data[i].season !=data[i+1].season){
-            menus.html += "<h2>Menus</h2>";
-        }
-
->>>>>>> Stashed changes
     }
 
-<<<<<<< Updated upstream
-    document.querySelector('menus').innerHTML = menus_html;
+    document.querySelector('.menus').innerHTML = menus_html;
 }
 
 /*Dado un objeto JSON de menú, devuelve su correspondiente HTML*/
+
 function menus_toHTML (menus){
     let menus_toHtml = '<article class="menu " '+ menus.menu + '>\
         <div class="presentacion">\
@@ -73,40 +59,17 @@ function menus_toHTML (menus){
 
         return menus_toHtml;
 }
-=======
-    for(var i = 0; i < data.length; i++){
-        if(data[i].season == season){
-            menu_html += menu_toHTML(data[i])
-        }
-    }
-    document.querySelector('content').innerHTML = menus_html;
-}
 
-function menu_toHTML(menu){
-    let menuso='<article class="menus ' + episode.season +' type_regular" id="'+menu+'">\
-                <header>\
-                <h2>'+menu.name+'<h2>\
-                <img src="'+menu.image+'" alt="'+menu.name+'">\
-                </header>\
-                <content>\
-                <strong>Descripcion:</strong><br />\
-                <p>'+menu.summary+'</p>\
-                <content>\
-                </article>';
-
-    return menuso
-}
-
-function main(){
-    data = getData()
-    displayData(data)
-}
-
-main();
-
->>>>>>> Stashed changes
 
 function main(){
     data = getDataMenus();
     displayDataMenus(data);
 }
+
+main();
+
+//Fin de unciones página indice_menus.html
+
+//Funciones página chefs.html
+
+//Fin de funciones página chefs.html
