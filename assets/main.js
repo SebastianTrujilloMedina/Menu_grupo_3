@@ -59,9 +59,11 @@ function main(){
 
 main();
 
-//Fin de unciones página indice_menus.html
+//Fin de funciones página indice_menus.html
 
-//Funciones página chefs.html
 
 
 //Fin de funciones página chefs.html
+
+
+document.querySelector('menus').innerHTML = ch1.toHtml();

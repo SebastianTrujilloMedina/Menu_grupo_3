@@ -6,8 +6,9 @@
 /*Principal.html*/
 body{
   background-image:url(./Imagenes/fondo_pag_rest.jpg);
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*imagen fondo pagina menú*/
 .fmenu{
@@ -114,6 +115,7 @@ h1{
 .principal{
   height: 350px;
 }
+
 footer {
   position:absolute;
   display: flex;
@@ -255,6 +257,9 @@ footer a{
 
 /*Responsive Pagina principal*/
 @media (max-width:700px){
+.lista_chefs{
+  display: flex;
+}
 
   .contenedor_nav h1{
     text-align: center;
@@ -268,6 +273,37 @@ footer a{
     font-size: 15px;
     justify-content:center;
   }
+/*Inicio página chefs*/
+
+
+
+/*Fin página menús*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.indexmenu{
+  display: flex;
+  color: orangered;
+  justify-content: center;
+  font-family: 'Sofia';
+  font-size: 60px;
+  margin-top: 0px;
 
   content p{
     font-size: 15px;
