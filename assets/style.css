@@ -259,25 +259,20 @@ footer a{
 @media (max-width:700px){
   .lista_chefs{
    display: flex;
-}
+  }
   .principal{
-  margin-left:-312px;
-  
-}
-
-content p{
-  font-size: 20px;
-  text-align: center;
-  justify-content: center;
- 
-}
-
+   margin-left:-312px; 
+  }
+  content p{
+   font-size: 20px;
+   text-align: center;
+   justify-content: center;
+  }
   .contenedor_nav h1{
     text-align: center;
     font-size: 33px;
     margin: 0px;
   }
-
   .contenedor_nav a{
     position: relative;
     text-align: center;
@@ -287,16 +282,41 @@ content p{
 
   /*Pagina Menus*/
   .menu h2{
-    font-size: 20px;
+    font-size: 18px;
   }
   .primer_plato p{
-    font-size: 17px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .segundo_plato p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .postre p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .cafe p{
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+  }
+  .bebida p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .info_adicional p{
+    font-size: 20px;
     margin: 0;
     padding: 0;
   }
   .menu{
-  width: 240px;
-  height: 380px;
+  width: 280px;
+  height: 460px;
   }
 
  /*Pagina Reservas*/
@@ -339,7 +359,6 @@ content p{
   .botones input{
     font-size: 14px;
   }
-
   
 }
 
