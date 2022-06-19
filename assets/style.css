@@ -257,8 +257,19 @@ footer a{
 
 /*Responsive Pagina principal*/
 @media (max-width:700px){
-.lista_chefs{
-  display: flex;
+  .lista_chefs{
+   display: flex;
+}
+  .principal{
+  margin-left:-312px;
+  
+}
+
+content p{
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+ 
 }
 
   .contenedor_nav h1{
@@ -273,96 +284,7 @@ footer a{
     font-size: 15px;
     justify-content:center;
   }
-/*Inicio página chefs*/
 
-
-
-/*Fin página menús*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.indexmenu{
-  display: flex;
-  color: orangered;
-  justify-content: center;
-  font-family: 'Sofia';
-  font-size: 60px;
-  margin-top: 0px;
-
-  content p{
-    font-size: 15px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .desprincipal{
-    margin-left: 120px;
-  }
-
-  .buscador{
-    width: 90px;
-    height: 36px;
-  }
-
-  .content{
-    width: 100%;
-    height: 215px;
-    display: flex;
-    align-items: center;
-    flex-direction: row; 
-  }
-
-  .contenedor_nav a:hover {
-    background-color:#7b592d;
-    color: black;    
-  }
-
-  .enlaces_footer{
-    display: inline;
-  }
-
-  .enlaces_footer a{
-    float: inline-start;
-    display: flex;
-  }
-
-  .contacto p{
-    font-size: 13px;
-    width: 60px;
-    display: inline-block;
-  }
-
-  footer{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   height: 160px;
-    
-  }
-  .buscador i{
-    width: 15px;
-    height: 19px;
-  }
-  .cp-text{
-    font-size: 13px;
-    margin-left:-240px;
-  }
   /*Pagina Menus*/
   .menu h2{
     font-size: 20px;
