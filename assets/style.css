@@ -195,6 +195,12 @@ footer a{
   margin:10px;
 }
 
+.presentacion a{
+  color: #644925;
+  text-decoration: none;
+  font-family: 'Sofia';
+}
+
 .presentacion:hover{
   transform: scale(1.2);
   transition: 0.3s;
